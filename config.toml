@@ -1,0 +1,53 @@
+[Directory]
+# absolute path to where this project is cloned or downloaded e.g: Desktop/YoutubeAutomation-Reddit
+path='Desktop/Nolan\ Projects/YouTubeAutomation-Reddit'
+# ----------------------------------------------------------
+[Background]
+# absolute path to the background video e.g: Desktop/minecraft.mp4
+#path='./VideoFiles/LQ_SubwaySurfers.mp4'
+path='./VideoFiles/MQ_Minecraft.mp4'
+# ----------------------------------------------------------
+[RedditCredential]
+client_id='ajBn0wiiQv6g1cT4acxu4Q'
+client_secret='pA-3YcwODBJHRT0tdfBRU6fZ31NoMg'
+user_agent='nBot v4.0 by /u/MentalAside3431'
+username='MentalAside3431'
+passkey='rBot321!'
+# ----------------------------------------------------------
+[YoutubeCredential]
+client_id='684156232219-5744rsj6j5cddh2okadvfuu8rtgahof7.apps.googleusercontent.com'
+client_secret='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'
+# ----------------------------------------------------------
+[AmazonAWSCredential]
+aws_access_key_id='AKIATCKAQXPTDC5BJQFL'
+aws_secret_access_key='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'
+region_name='us-east-1'
+# ----------------------------------------------------------
+[Reddit]
+# the subredit for which reddit posts are taken
+subreddit='StoriesAboutKevin'
+subreddita='AmITheAsshole'
+subredditb = 'AITAH'
+subredditc = 'tifu'
+subredditd = 'confession'
+subreddite = 'stories'
+# number of top comments
+topn_comments=0
+# ----------------------------------------------------------
+[VideoSetup]
+# the total duration of the final video in seconds
+max_video_duration=60
+# pause between reading the next comment (in seconds)
+pause=0.8
+# ----------------------------------------------------------
+[TextToSpeechSetup]
+# if set to true, each post/comment would have a random voice over
+multiple_voices=false
+# if multiple_voices is set to false, every post/comment would have the specified voice over
+voice_id='Matthew'
+# ----------------------------------------------------------
+[App]
+# whether the result video should be uploaded to your youtube channel
+upload_to_youtube=false
+# how often should the app be run (in seconds) e.g: every 6 hours -> 21600 seconds
+run_every=21600
