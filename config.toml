@@ -8,20 +8,20 @@ path='Desktop/Nolan\ Projects/YouTubeAutomation-Reddit'
 path='./VideoFiles/MQ_Minecraft.mp4'
 # ----------------------------------------------------------
 [RedditCredential]
-client_id='ajBn0wiiQv6g1cT4acxu4Q'
-client_secret='pA-3YcwODBJHRT0tdfBRU6fZ31NoMg'
-user_agent='nBot v4.0 by /u/MentalAside3431'
-username='MentalAside3431'
-passkey='rBot321!'
+client_id=''
+client_secret=''
+user_agent=''
+username=''
+passkey=''
 # ----------------------------------------------------------
 [YoutubeCredential]
-client_id='684156232219-5744rsj6j5cddh2okadvfuu8rtgahof7.apps.googleusercontent.com'
-client_secret='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'
+client_id='.apps.googleusercontent.com'
+client_secret=''
 # ----------------------------------------------------------
 [AmazonAWSCredential]
-aws_access_key_id='AKIATCKAQXPTDC5BJQFL'
-aws_secret_access_key='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'
-region_name='us-east-1'
+aws_access_key_id=''
+aws_secret_access_key=''
+region_name=''
 # ----------------------------------------------------------
 [Reddit]
 # the subredit for which reddit posts are taken
